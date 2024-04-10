@@ -99,7 +99,7 @@ package() {
     ln \
       -s \
       "hotnamectl" \
-      "${pkgdir}/usr/bin/hostnamect/"
+      "${pkgdir}/usr/bin/hostnamectl"
   fi
   if [[ "${_hostname}" == "false" ]]; then
     ln \
