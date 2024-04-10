@@ -1,6 +1,6 @@
 pkgbase = hotnamectl
 	pkgdesc = Cross-platform hostnamectl
-	pkgver = 0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.1.1.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/hotnamectl
 	arch = any
@@ -8,7 +8,8 @@ pkgbase = hotnamectl
 	checkdepends = shellcheck
 	depends = bash
 	provides = hostnamectl
-	source = hotnamectl-0.0.0.0.0.0.0.1.tar.gz::https://github.com/themartiancompany/hotnamectl/archive/refs/tags/0.0.0.0.0.0.0.1.tar.gz
-	sha256sums = 0b69f3e620beb0925eabff7739593285fbe1e4527d98467464154031cae66ab6
+	provides = hostname
+	source = hotnamectl-0.0.0.0.0.0.0.1.1.1.1.1.tar.gz::https://github.com/themartiancompany/hotnamectl/archive/refs/tags/0.0.0.0.0.0.0.1.1.1.1.1.tar.gz
+	sha256sums = d3c8b0f4c649806c4b138d9938badb6baec7cf5ddda3f128514ddab4e1334dd6
 
 pkgname = hotnamectl
