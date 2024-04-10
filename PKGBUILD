@@ -8,7 +8,7 @@ _hostname="false"
 _offline="false"
 _git="false"
 pkgname=hotnamectl
-pkgver=0.0.0.0.0.0.0.1.1.1.1
+pkgver=0.0.0.0.0.0.0.1.1.1.1.1
 pkgrel=1
 _pkgdesc=(
   "Cross-platform hostnamectl"
@@ -73,7 +73,7 @@ _url="${url}"
     "${pkgname}-${pkgver}.tar.gz::${_url}/archive/refs/tags/${pkgver}.tar.gz"
   ) && \
   sha256sums+=(
-    'a0b8f331a815ac9b8b0ec7172beaa3edec33ca3f2cb29ee39b0591a1a395eb7a'
+    'd3c8b0f4c649806c4b138d9938badb6baec7cf5ddda3f128514ddab4e1334dd6'
   )
 
 check() {
