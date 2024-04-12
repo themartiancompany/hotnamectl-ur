@@ -41,6 +41,8 @@ optdepends=(
   )
 provides=(
 )
+conflicts=(
+)
 [[ "${_hostnamectl}" == "false" ]] && \
   provides+=(
     "hostnamectl"
@@ -48,6 +50,9 @@ provides=(
 [[ "${_hostname}" == "false" ]] && \
   provides+=(
     "hostname"
+  )
+  conflicts+=(
+    'inetutils'
   )
 makedepends=()
 checkdepends=(

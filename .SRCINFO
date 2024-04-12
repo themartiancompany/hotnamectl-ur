@@ -9,6 +9,7 @@ pkgbase = hotnamectl
 	depends = bash
 	provides = hostnamectl
 	provides = hostname
+	conflicts = inetutils
 	source = hotnamectl-0.0.0.0.0.0.0.1.1.1.1.1.tar.gz::https://github.com/themartiancompany/hotnamectl/archive/refs/tags/0.0.0.0.0.0.0.1.1.1.1.1.tar.gz
 	sha256sums = d3c8b0f4c649806c4b138d9938badb6baec7cf5ddda3f128514ddab4e1334dd6
 
