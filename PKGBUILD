@@ -8,7 +8,8 @@ _hostname="false"
 _offline="false"
 _git="false"
 pkgname=hotnamectl
-pkgver=0.0.0.0.0.0.0.1.1.1.1.1
+pkgver="0.0.0.0.0.0.0.1.1.1.1.1.1"
+_commit='8c4b6472d04255c2df3d872d32781d6be07150d8'
 pkgrel=1
 _pkgdesc=(
   "Cross-platform hostnamectl"
